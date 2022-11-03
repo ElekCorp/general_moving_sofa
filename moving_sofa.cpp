@@ -15,6 +15,7 @@
 
 #include "nlopt.hpp"
 
+///TODO: replace point pushing with polygon slicing (find intersections with the wall and create a new polygon with a cut (and so on ...))
 
 void rand_optimizer(optimizer& sofa_opt,const optimizer& start);
 int count=0;
